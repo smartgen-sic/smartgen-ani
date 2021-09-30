@@ -1,0 +1,192 @@
+body {
+    background-color: #ECFAF1;
+}
+@font-face {
+    font-family: Smartgen;
+    src: url(./LobsterTwo-Bold.ttf);
+  }
+  @font-face {
+    font-family: sign up;
+    src: url(./Lemonada-VariableFont_wght.ttf);
+  }
+.tittle {
+    position: absolute;
+width: 231px;
+height: 66px;
+left: calc(50% - 231px/2 - 0.5px);
+top: 20px;
+font-family: Smartgen;
+src: url(./LobsterTwo-Bold.ttf);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+/* or 54px */
+text-align: center;
+color: #204051;
+mix-blend-mode: normal;
+}
+.form-label {
+
+position: absolute;
+width: 327px;
+height: 21.92px;
+left: -39px;
+top: 244px;
+font-family: sign up;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 40px;
+/* or 333% */
+text-align: center;
+color: #000000;
+}
+.form-control {
+    
+position: absolute;
+width: 280px;
+height: 36.49px;
+left: 44px;
+top: 286px;
+font-size: 12px;
+font-family: sign up;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 48px;
+}
+.text-field-umur {
+    position: absolute;
+    width: 280px;
+    height: 36.49px;
+    left: 44px;
+    top: 465px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
+    font-size: 12px;
+    font-family: sign up;
+    align-items: center;
+    padding: 12px;
+}
+
+.form-label-dua {
+    position: absolute;
+    width: 143px;
+    height: 40px;
+    left: 54px;
+    top: 338px;
+    font-family: sign up;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    /* identical to box height, or 333% */
+    text-align: center;
+    color: #000000;
+    }
+    .button-female {
+        position: absolute;
+        width: 109px;
+height: 29px;
+left: 45px;
+top: 378px;
+font-family: sign up;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+border-radius: 12px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: #CAE8D5;
+color: #000000;
+}
+.button-male {
+    
+position: absolute;
+width: 109px;
+height: 29px;
+left: 164px;
+top: 379px;
+font-family: sign up;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+border-radius: 12px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: #CAE8D5;
+color: #000000;
+}
+.button-male {
+    
+position: absolute;
+width: 109px;
+height: 29px;
+left: 164px;
+top: 379px;
+font-family: sign up;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #CAE8D5;
+color: #000000;
+
+}
+.field-umur {
+    position: absolute;
+width: 327px;
+height: 40px;
+left: -48px;
+top: 423px;
+font-family: sign up;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 40px;
+/* identical to box height, or 333% */
+text-align: center;
+color: #000000;
+}
+.button-next-awal {
+    position: absolute;
+    width: 280px;
+    height: 36.49px;
+    left: 44px;
+    top: 535px;
+    background-color: #18191F;
+    color: #CAE8D5;
+    border-radius: 48px;
+    font-size: 12px;
+    font-family: Sign up;
+    src: url(./Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
+}
+.logo {
+position: absolute;
+width: 316px;
+height: 162px;
+left: 31px;
+top: 107px;
+
+}
+
+.arrow {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 50px;
+top: 49px;
+} 
