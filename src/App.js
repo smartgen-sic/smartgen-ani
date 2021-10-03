@@ -4,7 +4,7 @@ import "./App.css";
 
 import Data from "./component/data";
 import Pembayaran from "./component/pembayaran";
-//import Register from "./component/register";
+import Realbot from "./component/realbot";
 //import {useState} from "react";
 
 function App () {
@@ -17,6 +17,9 @@ function App () {
               </Route>
               <Route exact path="/pembayaran">
                     <Pembayaran />
+                </Route>
+                <Route exact path="/realbot">
+                    <Realbot />
                 </Route>
            </Switch>
         </Router>

@@ -1,0 +1,469 @@
+body {
+    background-color: #ECFAF1;
+}
+
+@font-face {
+    font-family:Curhat Session ;
+    src: url(Lemonada-VariableFont_wght.ttf);
+}
+
+h1{
+    position: absolute;
+width: 231px;
+height: 29px;
+left: calc(50% - 231px/2 - 0.5px);
+top: 42px;
+
+font-family: Curhat Session;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+color: #204051;
+
+mix-blend-mode: normal;
+
+}
+
+.home-psikolog {
+    position: absolute;
+width: 28px;
+height: 28px;
+left: 32px;
+top: 40px;
+}
+
+.semangat {
+    position: absolute;
+width: 294px;
+height: 105px;
+left: 37px;
+top: 80px;
+
+}
+.chat{
+    position: absolute;
+width: 276px;
+height: 40px;
+left: 50px;
+top: 180px;
+
+}
+
+.button-belajar {
+    position: absolute;
+width: 89px;
+height: 28.01px;
+left: 45px;
+top: 230px;
+background: #3B6978;
+border-radius: 12px;
+}
+.belajar {
+    position: absolute;
+width: 51px;
+height: 16px;
+left: 19px;
+top: -6px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center !important; 
+/* identical to box height, or 133% */
+
+
+/* Colors / White */
+
+color: #FFFFFF;
+
+}
+.button-keluarga{
+    position: absolute;
+width: 89px;
+height: 28.01px;
+left: 145px;
+top: 230px;
+background: #3B6978;
+border-radius: 12px;
+}
+
+.keluarga{
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 15px;
+    top: -6px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+    
+    
+}
+.button-teman{
+    position: absolute;
+width: 89px;
+height: 28.01px;
+left: 45px;
+top: 265px;
+background: #3B6978;
+border-radius: 12px;
+}
+
+.Teman{
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 15px;
+    top: -6px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+    
+    
+}
+.button-kebiasaan{
+    position: absolute;
+width: 89px;
+height: 28.01px;
+left: 145px;
+top: 265px;
+background: #3B6978;
+border-radius: 12px;
+}
+
+.kebiasaan{
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 9px;
+    top: -6px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+    
+    
+}
+
+hr{
+    position: absolute;
+    width: 100%;
+    top: 300px;
+    color: #000;
+    
+}
+
+
+
+.respon{
+    position: absolute;
+    width: 256px;
+    height: 35px;
+    left: 15px;
+    top: 320px;
+    
+}
+
+.garis{
+    position: absolute;
+    width: 800px;
+    height: 9px;
+    left: 0px;
+    top: 400px;
+}
+
+.wandi{
+    position: absolute;
+width: 270px;
+height: 38px;
+left: 49px;
+top: 400px;
+}
+
+.button-sudah {
+    position: absolute;
+width: 89px;
+height: 28.01px;
+left: 45px;
+top: 445px;
+background: #3B6978;
+border-radius: 12px;
+}
+.sudah {
+    position: absolute;
+width: 51px;
+height: 16px;
+left: 19px;
+top: -6px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+/* Colors / White */
+
+color: #FFFFFF;
+
+}
+
+.button-belum {
+    position: absolute;
+width: 89px;
+height: 28.01px;
+left: 145px;
+top: 445px;
+background: #3B6978;
+border-radius: 12px;
+}
+
+.belum {
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 15px;
+    top: -6px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+    
+}
+
+.user {
+    position: absolute;
+width: 272px;
+height: 36px;
+left: 17px;
+top: 490px;
+}
+
+.bot {
+    position: absolute;
+width: 272px;
+height: 42px;
+left: 49px;
+top: 542px;
+
+}
+
+.memaparkan {
+    position: absolute;
+width: 261px;
+height: 36px;
+left: 17px;
+top: 617px;
+}
+
+.bott {
+    position: absolute;
+width: 274px;
+height: 97px;
+left: 49px;
+top: 680px;
+
+}
+
+.button-cukup{
+        position: absolute;
+        width: 114px;
+        height: 27.89px;
+        left: 60px;
+        top: 785.54px;
+        border-radius: 12px;
+        
+    background: #3B6978;
+}
+
+.cukup {
+    position: absolute;
+    width: 95px;
+    height: 16px;
+    left: 9px;
+    top: -6px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+    
+}
+    
+.button-curhat{
+    position: absolute;
+        width: 114px;
+        height: 27.89px;
+        left: 180px;
+        top: 785.54px;
+        border-radius: 12px;
+        
+    background: #3B6978;
+}
+
+.curhat {
+    position: absolute;
+    width: 95px;
+    height: 16px;
+    left: 9px;
+    top: -6px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+}
+
+.pilihan{
+    position: absolute;
+width: 254px;
+height: 36px;
+left: 17px;
+top: 837px;
+
+}
+
+.ending{
+    position: absolute;
+width: 273px;
+height: 92px;
+left: 47px;
+top: 904px;
+
+}
+.button-mulai{
+    position: absolute;
+        width: 300px;
+        height: 27.89px;
+        left: 38px;
+        top: 1010px;
+        border-radius: 12px;
+        
+    background: #3B6978;
+}
+
+.mulai {
+    position: absolute;
+    height: 16px;
+    left: 60px;
+    top: -6px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+}
+
+.perubahan{
+    position: absolute;
+width: 286px;
+height: 40px;
+left: 37px;
+top: 1080px;
+
+}
+
+.button-next {
+    position: absolute;
+    width: 114px;
+    height: 27.89px;
+    left: 222px;
+    top: 1150px;
+    border-radius: 12px;
+    
+background: #2a3133;
+}
+
+.next  {
+position: absolute;
+width: 95px;
+height: 16px;
+left: 9px;
+top: -6px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+/* Colors / White */
+
+color: #FFFFFF;
+
+}
